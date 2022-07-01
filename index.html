@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica NavBar</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/contacto.css">
+    <link rel="stylesheet" href="Css/sobrenosotros.css">
+</head>
+<!-- Inicio Barra de Navegacion -->
+<body>
+    <header class="navbar">
+        <div class="container">
+        <a href="index.html"class="logo">
+            <img src="Img/logoopcion2.png" alt="Logo de la marca">
+            <h2 class="nombre-empresa"></h2>
+        </a>
+        <nav>
+            <ul>
+                <a href="Vistas/productos.html"     class="nav-link">PRODUCTOS              </a>
+                <a href="Vistas/sobrenosotros.html" class="nav-link">SOBRE NOSOTROS         </a>
+                <a href="Vistas/preguntas.html"     class="nav-link">PREGUNTAS FRECUENTES   </a>
+                <a href="Vistas/contacto.html"      class="nav-link">CONTACTO              </a>
+            </ul>
+        </nav>
+        </div>
+    </header>
+<!-- Fin Barra de Navegacion -->
+
+<!-- Inicio de Imagen Heroe -->
+    <section class="hero">
+        <h1>NOT A BRAND</h1>
+    </section>
+<!-- Fin de Imagen Heroe -->
+
+<!-- Inicio de los Productos -->
+<main id="productos">
+    <h1 class="titulo-productos">NUESTROS PRODUCTOS</h1>
+    <section class="galeria-productos">			
+        <figure>
+            <img src="Img/Historia-hopeless.jpg" alt="">
+            <figcaption>Producto 1</figcaption>
+            <button class="price">COMPRAR</button>
+        </figure>
+
+        <figure>
+            <img src="Img/Historia-Hoodie-Bone.jpg" alt="">
+            <figcaption>Producto 2</figcaption>
+            <button class="price">COMPRAR</button>
+        </figure>
+
+        <figure>
+            <img src="Img/Historia-dreams-butterfly.jpg" alt="">
+            <figcaption>Producto 3</figcaption>
+            <button class="price">COMPRAR</button>
+        </figure>
+    </section>
+</main>
+<!-- Fin de los Productos -->
+
+<!-- Inicio Informacion Sobre Nosotros -->
+    <section class="sobre-nosotros">
+        <div class="container">
+            <h3>POR QUE ELEGIRNOS?</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex dolorum adipisci dignissimos cumque repellat tempora consectetur. Assumenda consequuntur consequatur voluptatem?</p>
+        </div>
+    </section>
+<!-- Fin Informacion Sobre Nosotros -->
+
+<!-- Inicio Preguntas Frecuentes -->
+    <section class="preguntas-frecuentes">
+        <div class="container">
+            <h3>PREGUNTAS FRECUENTES</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam ab iste molestias ut perferendis consequatur praesentium, dolores facere architecto totam.</p>
+        </div>
+    </section>
+<!-- Fin Preguntas Frecuentes -->
+
+<!-- Inicio Formulario de Contacto -->
+    <section class="contacto">
+        <div class="container">
+            <form action="envio.php">
+                <h2>CONTACTO</h2>
+                    <input class="controls" type="text"     id="nombre" placeholder="Ingrese su Nombre">
+                    <input class="controls" type="text"     id="apellido" placeholder="Ingrese su Apellido">
+                    <input class="controls" type="email"    id="correo" placeholder="Ingrese su Correo">
+                    <input class="controls" type="text"     id="numero" placeholder="Ingrese su Número">
+                    <p>Estoy de acuerdo con <a href="#"> Terminos y Condiciones </a> </p>
+                    <input class="boton"    type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+<!-- Fin Formulario de Contacto -->
+
+<!-- Inicio de Ubicacion -->
+    <section class="google-maps">
+        <div class="container">
+            <iframe class="googlemaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3496750.058306027!2d-60.88039664911764!3d-31.143208024826006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5f058f5f595%3A0x5c5f9a65583836fd!2sNike!5e0!3m2!1ses-419!2sar!4v1654714229264!5m2!1ses-419!2sar" 
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+<!-- Fin de Ubicacion -->
+
+<!-- Inicio del Footer + Redes Sociales -->
+    <section class="footer">
+        <div class="container">
+            <footer>
+                <a href="https://www.instagram.com/byessentryx" target="_blank">
+                    <img src="Img/instagram.png" alt="" width="50px">
+                </a>
+    
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="Img/twitter.png" alt="" width="50px">
+                </a>
+    
+                <a href="https:gmail.com" target="_blank">
+                    <img src="Img/gmail.png" alt="" width="50px">
+                </a>
+            </footer>
+        </div>
+    </section>
+<!-- Fin del Footer + Redes Sociales -->
+
+</body>
+</html>

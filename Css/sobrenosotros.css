@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: rgba(14,14,14);
+}
+
+/** Fonts Config **/
+h1 { font-size: 3em;}
+h2 { font-size: 1.20em;}
+h3 { font-size: 1.5em;}
+p { font-size: 0.90em;}
+/** End Fonts Config **/
+
+/** Inicio de la navbar **/
+header {
+    background-color: #333;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header nav a{
+    font-weight: bold;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.7s;
+}
+
+nav a:hover {
+    background-size: 100% 2px;
+    color: rgb(151, 102, 82);
+}
+
+.logo {
+    margin: 0;
+    padding-top: 30px;
+}
+
+.logo img {
+    height: 4.5em;
+}
+/** Fin de la navbar **/
+
+/** Inicio Seccion Sobre Nosotros **/
+
+.sobre-nosotros .container{
+    color: white;
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+}
+
+.sobre-nosotros h3 {
+    text-align: center;
+    color: rgb(151, 102, 82);
+    margin: 0;
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+.sobre-nosotros p {
+    margin: 0;
+    padding: 5px;
+}
+/** Fin Seccion Sobre Nosotros **/
